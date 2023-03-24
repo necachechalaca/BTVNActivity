@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nen">
+
+    <RelativeLayout
+
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bo_goc_clock">
+
+        <TextClock
+            android:id="@+id/textcock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="19 : 11"
+            android:textColor="@color/white"
+            android:textSize="60sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Night"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:textStyle="italic"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_below="@+id/relative1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bo_goc_dialer">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialer"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp" />
+        <ImageView
+            android:id="@+id/dialer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_phone_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_toRightOf="@+id/relative2"
+        android:layout_below="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bo_goc_message">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"/>
+        <ImageView
+            android:id="@+id/message"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_message_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp"/>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_below="@+id/relative2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bo_goc_contacts">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"/>
+        <ImageView
+            android:id="@+id/contacts"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_person_4_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative5"
+        android:layout_toRightOf="@+id/relative4"
+        android:layout_below="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bo_goc_camera">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"/>
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_camera_alt_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative6"
+        android:layout_below="@+id/relative4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bo_goc_music">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"/>
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_music_note_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative7"
+        android:layout_toRightOf="@+id/relative6"
+        android:layout_below="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bo_goc_galarry">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"/>
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_crop_original_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="140dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
